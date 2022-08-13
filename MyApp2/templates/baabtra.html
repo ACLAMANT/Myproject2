@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /* grid-gap: 10px; */
+            /* column-gap: 10px; */
+            /* row-gap: 20px; */
+            gap: 10px;
+            grid-column-start: 1;
+            grid-template-rows: 80px 200px 300px;
+            
+        }
+
+        #item {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: aqua;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            justify-content: center;
+
+
+
+        }
+
+        .item {
+            background-color: blueviolet;
+            padding: 5px;
+            margin: 3px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="item" class="item">
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit explicabo necessitatibus quaerat. Sit veniam soluta et, beatae vero laborum sunt neque, amet corporis eius nemo ab exercitationem expedita optio. Animi!</h1>
+        </div>
+        <div class="item">
+            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla voluptatibus maxime error ab et, provident ullam facilis, ad aliquam debitis in ut sapiente? Deleniti aut quia ratione, delectus officiis voluptatibus!</h1>
+        </div>
+        <div class="item">
+            <h1>3</h1>
+        </div>
+        <div class="item">
+            <h1>4</h1>
+        </div>
+        <div class="item">
+            <h1>5</h1>
+        </div>
+        <div class="item">
+            <h1>6</h1>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

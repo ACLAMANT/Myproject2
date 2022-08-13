@@ -1,0 +1,152 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type='text'] {
+            height: 30px;
+        }
+
+        input[type='password'] {
+            height: 40px;
+            width: 100px;
+        }
+
+        h1 {
+            font-size: 20px;
+            color: blueviolet;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: justify;
+            text-decoration: underline;
+            text-indent: 200px;
+            letter-spacing: 5px;
+            direction: rtl;
+            text-shadow: 3px 1px black;
+
+        }
+
+        b {
+            font-size: 20px;
+            color: brown;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: justify;
+            text-transform: capitalize;
+            line-height: 40px;
+            word-spacing: 20px;
+
+
+        }
+
+        /* body {
+            background-image: url("{% static 'images/Kid.PNG' %}");
+            background-repeat: no-repeat;
+            background-size: cover;    
+            
+        } */
+        p {
+            border: 2px dashed green;
+            visibility: visible;
+            box-shadow: 5px 10px black;
+        }
+
+        table {
+            border: 1px solid black;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            height: 50px;
+            text-align: left;
+            vertical-align: bottom;
+        }
+
+        img {
+            width: 500px;
+            height: 500px;
+            opacity: 0.5;
+            float: right;
+        }
+
+        h2 {
+            position: absolute;
+            top: 100px;
+            left: 50px;
+
+        }
+
+        #first {
+            background-image: linear-gradient(red, yellow);
+            box-shadow: 5px 10px coral;
+
+        }
+
+        #second {
+            background-color: aqua;
+            width: 150px;
+            height: 100px;
+            overflow: visible;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <marquee behavior="" direction="">Welcome to the CSS Page</marquee>
+    <h1>SignUp page</h1>
+    <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, iusto ex quo a vitae sequi unde soluta quasi.
+        Asperiores quidem debitis nobis eligendi deleniti accusantium doloribus. Et delectus assumenda modi.</b> <br>
+    <input type="text"> <br> <br>
+    <input type="password"> <br> <br>
+    <input type="button" value="Submit"><br>
+    <a href="">forget password</a>
+    <img src="{% static 'images/Kid.PNG' %}" alt="">
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, non facere reprehenderit nostrum doloremque,
+        doloribus exercitationem odio necessitatibus dicta quos aliquid consequuntur qui pariatur molestiae consectetur
+        possimus nobis culpa architecto!
+    </p>
+
+    <table border="1">
+        <tr>
+            <th>name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>20</td>
+        </tr>
+
+    </table>
+
+    <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum modi, quas nobis architecto voluptatum
+        consequatur magnam vero.
+    </h2>
+    <div id="first">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae cum aperiam, id incidunt impedit sit nulla
+        omnis minus aut tempore esse eaque nihil repellat voluptas? Ratione cupiditate consequatur doloremque fugit!
+
+    </div> <br><br>
+    <div id="second">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugit unde quaerat perspiciatis deserunt omnis
+        minus aut tempore esse eaque nihil repellat voluptas? Ratione cupiditate consequatur doloremque fugit!
+
+    </div>
+<br>
+<br>
+
+
+
+
+
+</body>
+
+</html>
